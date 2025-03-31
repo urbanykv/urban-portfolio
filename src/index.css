@@ -1,0 +1,29 @@
+@import 'tailwindcss';
+@import './font.css';
+
+body, #root {
+    @apply 
+    font-(family-name:--font-poppins)
+    w-[100vw] 
+    h-[100vh]
+    flex 
+    items-center 
+    justify-center
+    bg-primary-100
+    md:p-5
+    lg:p-5
+    sm:p-5
+    p-[10px]
+}
+
+@theme {
+    --font-poppins: 'Poppins';
+
+    /* Colors */
+    --color-primary-100: rgba(29, 31, 31, 1); /* Background Main */
+    --color-primary-200: rgba(90, 90, 90, 0.05); /* Fundo Cards */
+    --color-primary-300: rgba(90, 90, 90, 0.35); /* Fundo Projetos */
+    --color-primary-400: rgba(33, 34, 34, 1); /* Fundo Botão Terceiro */
+    --color-secondary-100: rgba(104, 104, 104, 1); /* Borda */
+    --color-secondary-200: rgba(90, 90, 90, 1); /* Borda Projetos */
+}
