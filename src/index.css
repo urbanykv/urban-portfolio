@@ -2,6 +2,9 @@
 @import './font.css';
 
 body, #root {
+    background-image: url(./assets/Images/wallpaper-project.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     @apply 
     font-(family-name:--font-poppins)
     w-[100vw] 
@@ -9,7 +12,10 @@ body, #root {
     flex 
     items-center 
     justify-center
-    bg-primary-100
+}
+
+#root {
+    @apply 
     md:p-5
     lg:p-5
     sm:p-5

@@ -23,7 +23,7 @@ export const ResumeView = () => {
                     label="Experiências"
                     onClick={() => console.log("Experiências")}
                     width="100%"
-                    height="45px"
+                    height="40px"
                 />
                 <hr className="h-[75%] w-[1px] bg-secondary-100"/>
                 <ButtonView 
@@ -32,7 +32,16 @@ export const ResumeView = () => {
                     label="Habilidades"
                     onClick={() => console.log("Experiências")}
                     width="100%"
-                    height="45px"
+                    height="40px"
+                />
+                <hr className="h-[75%] w-[1px] bg-secondary-100"/>
+                <ButtonView 
+                    styleType="secondary"  
+                    isAnchor="button" 
+                    label="TimeLine"
+                    onClick={() => console.log("Experiências")}
+                    width="100%"
+                    height="40px"
                 />
             </nav>
             <ExpListView 

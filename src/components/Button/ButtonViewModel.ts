@@ -15,7 +15,7 @@ export const useButtonViewModel = ({ styleType, iconPosition }: IButtonViewModel
     styleType === "disabled"? buttonStyle.disabled:
     styleType === "link"? buttonStyle.link: null;
 
-    const processedClassName = `${iconPosition === 'left' ? 'flex-row-reverse' : 'flex-row'} flex items-center ${styleType === "link" ? 'justify-end' : 'justify-center'} gap-2 cursor-pointer rounded-lg transition-all  ${processedStyle}`;
+    const processedClassName = `${iconPosition === 'left' ? 'flex-row-reverse' : 'flex-row'} flex items-center ${styleType === "link" ? 'justify-end' : 'justify-center'} text-[14px] gap-2 cursor-pointer rounded-lg transition-all  ${processedStyle}`;
     
     return {
         processedClassName
