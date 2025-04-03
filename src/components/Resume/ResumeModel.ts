@@ -1,0 +1,1 @@
+export type ResumeStateType = 'experience' | 'timeline' | 'skills';

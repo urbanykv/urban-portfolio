@@ -1,5 +1,5 @@
-import { IExpCardView } from "../ExpCard/ExpCardModel";
+import { ISkillView } from "../Skill/SkillModel";
 
 export interface ISkillsListView {
-    ExpList: IExpCardView[]
+    SkillList: ISkillView[]
 }
